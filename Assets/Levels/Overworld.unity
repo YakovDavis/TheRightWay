@@ -150,8 +150,8 @@ GameObject:
   m_Component:
   - component: {fileID: 832662616}
   - component: {fileID: 832662618}
-  - component: {fileID: 832662619}
   - component: {fileID: 832662617}
+  - component: {fileID: 832662619}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -227,9 +227,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 832662615}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c707385db52fca84d829ba760bfa4c6a, type: 3}
+  m_Script: {fileID: 11500000, guid: af6f5963774d5a04db5b4c0ed809361e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsControllable: 1
+  Speed: 0.05
 --- !u!1 &1077029855
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,6 +377,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05d2a1d5696ca554cb017055a8e45ee9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SpriteRenderer: {fileID: 0}
+  m_NewColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 0
+  m_Red: 0
+  m_Blue: 0
+  m_Green: 0
 --- !u!95 &1447959436
 Animator:
   serializedVersion: 3

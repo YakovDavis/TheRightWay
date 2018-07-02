@@ -60,8 +60,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Code\CameraController.cs" />
-    <Compile Include="Assets\Code\Example.cs" />
-    <Compile Include="Assets\Code\PlayerControl.cs" />
+    <Compile Include="Assets\Code\Humanoid.cs" />
+    <Compile Include="Assets\Code\IDamageble.cs" />
+    <Compile Include="Assets\Code\IKillable.cs" />
+    <Compile Include="Assets\Code\IMovable.cs" />
+    <Compile Include="Assets\Code\Player.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>E:/Profile/Documents/The Right Way/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
